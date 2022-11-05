@@ -1,3 +1,14 @@
+//Test case 1:
+Input:
+Enter decimal number:24
+Output:11000
+
+//Test Case 2:
+Input:
+Enter decimal number:56
+Output:111000
+................................................................................................................................................................
+    
 import java.util.Scanner;
 public class DecimalIntoBinary {
     public static void main(String[] args) {
