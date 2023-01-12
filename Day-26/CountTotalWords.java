@@ -4,6 +4,10 @@ Initialize count with 1 as if there are no spaces in the string, then there will
 Check if you encounter any space.
 Once you find the space, check it next character. If it is not space then we found a word in the String.Increment the count variable.
 Once you reach end of String, count variable will hold number of words in the String.
+#TEST CASES
+Input:Enter String
+Who are you
+Output:total words are 3.
 
 ..........................................................................................................................................................................
 import java.util.Scanner;
