@@ -1,20 +1,3 @@
-Skip to content
-ajaykumar1592
-/
-100-days-of-code
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-More
-100-days-of-code/Day 23 Java Iterator/readme.txt
-@ajaykumar1592
-ajaykumar1592 Create readme.txt
- History
- 1 contributor
-31 lines (26 sloc)  1.21 KB
 Java Iterator class can help you to iterate through every element in a collection. Here is a simple example:
 
 import java.util.*;
@@ -46,18 +29,3 @@ Java
 Note: The stdin doesn't contain the string "###", it is added in the main method.
 
 To restore the original code in the editor, click the top left icon on the editor and create a new buffer.
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-100-days-of-code/readme.txt at main · ajaykumar1592/100-days-of-code
