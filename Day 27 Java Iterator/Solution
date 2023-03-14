@@ -1,0 +1,74 @@
+Skip to content
+ajaykumar1592
+/
+100-days-of-code
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+More
+100-days-of-code/Day 23 Java Iterator/Solution.java /
+@ajaykumar1592
+ajaykumar1592 Create Solution.java
+ History
+ 1 contributor
+42 lines (37 sloc)  868 Bytes
+import java.util.*;
+public class Main
+{
+   static Iterator func(ArrayList mylist)
+   {
+      Iterator it=mylist.iterator();
+      while(it.hasNext())
+      {
+         Object element = it.next();
+         if(element instanceof String)//Hints: use instanceof operator
+            break;
+      }
+      return it;
+      
+   }
+
+   public static void main(String []argh)
+   {
+      ArrayList mylist = new ArrayList();
+      Scanner sc=new Scanner(System.in);
+      int n=sc.nextInt();
+      int m=sc.nextInt();
+      for(int i=0;i<n;i++)
+      {
+         mylist.add(sc.nextInt());
+      }
+      mylist.add("###");
+      for(int i=0;i<m;i++)
+      {
+         mylist.add(sc.next());
+      }
+      
+      
+      Iterator it=func(mylist);
+      while(it.hasNext())
+      {
+         Object element = it.next();
+         System.out.println((String)element);
+      }
+      
+   }
+}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+100-days-of-code/Solution.java at main · ajaykumar1592/100-days-of-code
